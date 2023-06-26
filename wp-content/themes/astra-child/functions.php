@@ -23,3 +23,12 @@ function child_enqueue_styles() {
 }
 
 add_action( 'wp_enqueue_scripts', 'child_enqueue_styles', 15 );
+
+add_filter('wp_nav_menu_items','add_menu_admin',10,2);
+
+function add_menu_admin($items,$args) {
+	if (is_user_logged_in())	{
+		$adminLink.='<li id="admin-link"class="menu-item"><a class= "menu-link" href="http://localhost/Planty/wp-admin/index.php"> Admin </a></li>';}
+
+		return $adminLink.$items;
+}
