@@ -33,8 +33,127 @@
     max-width: 1440px;
 }
 
-/******Titre h1***********/
+.ast-page-builder-template .site-content > .ast-container{
+    max-width: 1440px;
+}
+
+/********Formulaire***********/
+.form-container{
+    display: flex;
+    justify-content: space-between;
+    color: #FFFFFF;
+    padding-bottom: 20px;
+}
+
+.entry-content .form-title{
+    color: #FFFFFF;
+}
+
+.border-form{
+    border-right: 1px solid #FFFFFF;
+    padding-right: 46px;
+}
+
+.entry-content .no-margin{
+    margin-bottom: 0px;
+}
+
+.submit-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.wpcf7 input:not([type="submit"]), .wpcf7 select, .wpcf7 textarea{
+    border-radius: 7px;
+    border-width: 0px;
+    height: 71px;
+    width: 383px;
+}
 
 
-/*******Images*************/
+.input-form textarea{
+    border-radius: 7px;
+    border-width: 0px;
+    height: 237px;
+    width: 383px;
+}
+
+.wpcf7-form-control-wrap{
+    padding-top: 7px;
+}
+
+.wpcf7-form label{
+    font-size: 20px;
+}
+.submit-position{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+/***********boutons formulaires et CTA page d'accueil******/
+.wpcf7-submit, .elementor-button.elementor-size-sm{
+    display: flex;
+    width: 198px;
+    height: 55px;
+    margin: auto;
+}
+
+.elementor-button-wrapper{
+    display: flex;
+}
+
+/*******boutons votre commande**********/
+.elementor-button.elementor-size-xl{
+    display: flex;
+    height: 56px;
+    width: 100px;
+    padding: 0px;
+}
+
+.elementor-button-content-wrapper{
+    margin: auto;
+}
+ 
+/********"votre commande" élément en bas à gauche***********/
+.left-input{
+    display: flex;
+    width:51px;
+    height:56px;
+    background-color: #FFFFFF;
+    border-radius: 7px 0px 0px 7px;
+}
+
+.right-input{
+    width:31px;
+    height: 56px;
+    background-color: #DC9F96;
+    border-radius: 0px 7px 7px 0px;
+    display: flex;
+    flex-direction: column;
+    color: #FFFFFF;
+    font-size: 20px;
+}
+
+.commande-input{
+    display: flex;
+}
+
+.plus-input{
+    display: flex;
+    width:31px;
+    height: 28px;
+}
+
+.minus-input{
+    display: flex;
+    width:31px;
+    height:27px;
+    border-top: 1px solid #FFFFFF;
+}
+
+.commande-input p{
+    margin: auto;
+}
 
