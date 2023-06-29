@@ -163,8 +163,25 @@
 }
 
 /***************Responsive***************/
-@media screen and (max-width: 769px){
+@media screen and (max-width: 1024px){
     .wpcf7 input:not([type="submit"]), .wpcf7 select, .wpcf7 textarea{
         width: 355px;
+    }
+    .border-form{
+        padding-right: 29px;
+    }
+}
+
+@media screen and (max-width: 769px){
+    .wpcf7 input:not([type="submit"]), .wpcf7 select, .wpcf7 textarea{
+        width: 300px;
+    }
+    .form-container{
+        flex-direction: column;
+        gap: 40px;
+    }
+    .border-form{
+        padding-right: 0px;
+        border-right: none;
     }
 }
