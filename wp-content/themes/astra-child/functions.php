@@ -33,7 +33,12 @@ function add_menu_admin($items,$args) {
 		return $adminLink.$items;
 }
 
-// Update your custom tablet breakpoint below - like return 921;
+// Update your custom tablet breakpoint below - like return 1024;
 add_filter( 'astra_tablet_breakpoint', function() {
     return 1024;
+});
+
+// Update your custom mobile breakpoint below - like return 769;
+add_filter( 'astra_mobile_breakpoint', function() {
+    return 769;
 });

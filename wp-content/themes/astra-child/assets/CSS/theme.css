@@ -162,4 +162,9 @@
     margin: auto;
 }
 
-
+/***************Responsive***************/
+@media screen and (max-width: 769px){
+    .wpcf7 input:not([type="submit"]), .wpcf7 select, .wpcf7 textarea{
+        width: 355px;
+    }
+}
